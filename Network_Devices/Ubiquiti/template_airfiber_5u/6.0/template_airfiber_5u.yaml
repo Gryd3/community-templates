@@ -290,11 +290,6 @@ zabbix_export:
           delay: 1h
           trends: '0'
           value_type: TEXT
-          preprocessing:
-            -
-              type: MULTIPLIER
-              parameters:
-                - '0.01'
           tags:
             -
               tag: Application
@@ -308,11 +303,6 @@ zabbix_export:
           delay: 1h
           trends: '0'
           value_type: TEXT
-          preprocessing:
-            -
-              type: MULTIPLIER
-              parameters:
-                - '0.01'
           tags:
             -
               tag: Application
